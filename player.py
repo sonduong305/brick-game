@@ -5,7 +5,7 @@ class player(object):
     def __init__(self, x, y):
         self.x = x*20
         self.y = y*20
-        self.vel = 1.5
+        self.vel = 2
         self.ver = 1
         self.hor = 0
         self.hitbox = (self.x - 25, self.y - 25, 25*3, 25*3)

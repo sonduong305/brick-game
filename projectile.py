@@ -8,7 +8,7 @@ class projectile(object):
         self.color = color
         self.hor = hor
         self.ver = ver
-        self.vel = 4
+        self.vel = 8
 
     def draw(self,win):
         pygame.draw.circle(win, self.color, (int(self.x), int(self.y)), self.radius)
