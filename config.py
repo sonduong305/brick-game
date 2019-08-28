@@ -1,2 +1,2 @@
 class config:
-    size = (1000, 500)
+    size = (1000, 1000)
